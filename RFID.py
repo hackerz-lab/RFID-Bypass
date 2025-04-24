@@ -74,8 +74,8 @@ def main():
         rfid_code = generate_rfid_code()
         print(f"\n{Colors.PURPLE}[*] Generated Clone RFID Code: {Colors.BOLD}{rfid_code}{Colors.RESET}")
         
-        print(f"\n{Colors.YELLOW}[!] WARNING: This is a Highly Dangerous.{Colors.RESET}")
-        print(f"{Colors.YELLOW}[!] Actual RFID systems have stronger security measures.{Colors.RESET}")
+        # print(f"\n{Colors.YELLOW}[!] WARNING: This is a Highly Dangerous.{Colors.RESET}")
+        # print(f"{Colors.YELLOW}[!] Actual RFID systems have stronger security measures.{Colors.RESET}")
     else:
         print(f"{Colors.RED}[-] Operation Finished.{Colors.RESET}")
 
